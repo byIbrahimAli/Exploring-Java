@@ -1,4 +1,4 @@
-package com.byibrahimali;
+package random_pile_of_sh;
 
 public class Main {
 
