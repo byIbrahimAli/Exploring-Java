@@ -3,6 +3,10 @@ public class Hello {
         System.out.println("Hello sexy");
 
         int myFirstNumber = (5 + 10) + (2 * 10);
-        System.out.println(myFirstNumber);
+        int mySecondNumber = 12;
+        int myThirdNumber = 6;
+        int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
+        System.out.println(myTotal);
+
     }
 }
