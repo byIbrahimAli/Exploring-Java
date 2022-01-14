@@ -17,6 +17,7 @@ public class Letters_Only {
     }
 
     private String input() throws IOException {
+        // Ways to get input: https://www.geeksforgeeks.org/ways-to-read-input-from-console-in-java/
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         // Closing reader tips: https://stackoverflow.com/questions/32042494/is-it-necessary-to-close-an-inputstreamreader-in-a-bufferedreader
         input = reader.readLine();
