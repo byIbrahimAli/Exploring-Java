@@ -1,13 +1,27 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /**
  * To return only letters from a string.
  * https://www.javacodeexamples.com/java-string-keep-only-letters-example/721
  */
 public class Letters_Only {
 
-    String input;
+    private String input;
 
-    public Letters_Only(String input) {
-        this.input = input;
+    public Letters_Only() throws IOException {
+        System.out.println("Input your garbage");
+        input();
+        System.out.println("Tada 🪄 → " + letter_filter());
+    }
+
+    private String input() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        // Closing reader tips: https://stackoverflow.com/questions/32042494/is-it-necessary-to-close-an-inputstreamreader-in-a-bufferedreader
+        input = reader.readLine();
+        reader.close();
+        return input;
     }
 
     public String letter_filter() {
@@ -17,8 +31,8 @@ public class Letters_Only {
         return input_copy;
     }
 
-    public static void main(String[] args) {
-        Letters_Only test = new Letters_Only("1M34y n3a89*m3e i1__s F4^uc12k__ ");
-        System.out.println(test.letter_filter());
+    public static void main(String[] args) throws IOException {
+        Letters_Only test = new Letters_Only();
+        // 1M34y n3a89*m3e i1__s F4^uc12k__
     }
 }
