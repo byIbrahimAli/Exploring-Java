@@ -1,2 +1,3 @@
 # Aim
-Print string in block letters. Block letters being: ![Block Letters](block-letters-hint.jpg "Block Letters" =x250)
+Print string in block letters. Block letters being: 
+<img src="block-letters-hint.jpg" alt="block letters demonstration" height="250/">
