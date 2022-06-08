@@ -1,3 +1,5 @@
+package random_pile_of_sh.letters_only;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -27,7 +29,7 @@ public class Letters_Only {
 
     public String letter_filter() {
         String input_copy = input;
-        input_copy = input_copy.replaceAll("[^a-zA-Z\s]", "");
+        // input_copy = input_copy.replaceAll("[^a-zA-Z\s]", "");
         // want no spaces too? Use: [^a-zA-Z]
         return input_copy;
     }
