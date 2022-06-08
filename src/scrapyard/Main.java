@@ -1,4 +1,4 @@
-package random_pile_of_sh;
+package scrapyard;
 
 public class Main {
 

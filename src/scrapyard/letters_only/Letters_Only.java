@@ -1,4 +1,4 @@
-package random_pile_of_sh.letters_only;
+package scrapyard.letters_only;
 
 import java.io.BufferedReader;
 import java.io.IOException;
