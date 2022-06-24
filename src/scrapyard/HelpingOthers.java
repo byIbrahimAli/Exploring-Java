@@ -18,9 +18,9 @@ public class HelpingOthers {
         for(int i = 0 ; i < marks.length; i++){
            System.out.println("enter Grade:");
            marks[i] = input.nextInt();
-           count = count + marks[i];
-           if(i == (marks.length - 1)){
-             System.out.println("Total is " + count);
+           count += marks[i];
+           if(i == marks.length - 1){
+             System.out.println("\nTotal is " + count);
              input.close();
             }
         }   
