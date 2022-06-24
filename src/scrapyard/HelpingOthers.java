@@ -26,3 +26,19 @@ public class HelpingOthers {
         }   
     }
 }
+
+/*
+ int count = 0, avg;
+      for(int i = 0 ; i < marks.length; i++){
+       System.out.println("enter Grade:");
+       marks[i] = input.nextInt();
+       if(marks[i] != marks.length){
+        count++;
+        System.out.println("Total is " + count);;
+  }   
+  avg = count/marks.length;
+  System.out.println("average of marks for students is "+avg);
+}
+}
+}
+ */
