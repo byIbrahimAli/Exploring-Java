@@ -15,10 +15,10 @@ public class HelpingOthers {
         for(int i = 0 ; i < marks.length; i++){
            System.out.println("enter Grade:");
            marks[i] = input.nextInt();
-        //    if(int j = 0; j < count;j++){
-        //      count++;
-        //      System.out.println("Total is " + count);
-        //     }
+           if(i == (marks.length - 1)){
+             count++;
+             System.out.println("Total is " + count);
+            }
         }   
     }
 }
